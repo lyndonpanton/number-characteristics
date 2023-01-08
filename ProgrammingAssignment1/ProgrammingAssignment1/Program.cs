@@ -33,6 +33,26 @@ namespace ProgrammingAssignment1
                 // course add more space between the
                 // comments as needed
 
+                if (number % 2 == 0)
+                {
+                    Console.Write("e ");
+                }
+                else
+                {
+                    Console.Write("o ");
+                }
+
+                if (number < 0)
+                {
+                    Console.WriteLine("-1");
+                } else if (number > 0)
+                {
+                    Console.WriteLine("1");
+                } else
+                {
+                    Console.WriteLine("0");
+                }
+
 
 
                 // Don't add or modify any code below
